@@ -1,0 +1,139 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e9ecef 100%);
+  min-height: 100vh;
+  color: #343a40;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #6f42c1;
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(111,66,193,0.08);
+}
+
+
+.App-link {
+  color: #ffb347;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.App-link:hover {
+  color: #fff3cd;
+}
+
+/* Bootstrap Table Customization */
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(111,66,193,0.06);
+}
+.table thead {
+  background: #6f42c1;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f3e9fc;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+.btn-primary:hover {
+  background-color: #563d7c;
+  border-color: #563d7c;
+}
+.btn-secondary {
+  background-color: #ffb347;
+  border-color: #ffb347;
+  color: #343a40;
+}
+.btn-secondary:hover {
+  background-color: #ffe082;
+  border-color: #ffe082;
+  color: #343a40;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #6f42c1;
+  font-weight: 700;
+}
+
+/* Navigation */
+.navbar {
+  background: #fff3cd;
+  border-bottom: 2px solid #6f42c1;
+}
+.navbar-brand {
+  color: #6f42c1 !important;
+  font-weight: bold;
+}
+.nav-link {
+  color: #6f42c1 !important;
+}
+.nav-link.active {
+  color: #ffb347 !important;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #6f42c1;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(111,66,193,0.08);
+}
+.card-header {
+  background: #6f42c1;
+  color: #fff;
+}
+.card-body {
+  background: #f8fafc;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 1rem;
+  border: 2px solid #6f42c1;
+}
+.modal-header {
+  background: #6f42c1;
+  color: #fff;
+  border-bottom: 1px solid #ffb347;
+}
+.modal-footer {
+  background: #f8fafc;
+  border-top: 1px solid #ffb347;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
